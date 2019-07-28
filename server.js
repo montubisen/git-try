@@ -16,6 +16,9 @@ const info=[{},{
     from:'meerut',
     branch:'IT'
 }]
+
+const PORT=PROCESS.env.PORT ||3000
+
 app.set('view engine','hbs')
 
 app.get('/',(req,res)=>{
@@ -23,6 +26,6 @@ app.get('/',(req,res)=>{
     const k=info[blogId]
     res.render('index',{info,k})
 })
-app.listen(3000,()=>{
+app.listen(PORT,()=>{
     console.log('connected')
 })
