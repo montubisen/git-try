@@ -9,7 +9,7 @@ const info=[{},{
     id:2,
     title:'prashant',
     from:'bhulandshar',
-    branch:'IT'
+    branch:'eee'
 },{
     id:3,
     title:'navneet',
@@ -20,6 +20,8 @@ const info=[{},{
 const PORT=process.env.PORT ||3000
 
 app.set('view engine','hbs')
+
+app.use(express.static('public'))
 
 app.get('/',(req,res)=>{
     const blogId=req.query.blog;

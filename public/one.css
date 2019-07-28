@@ -1,0 +1,10 @@
+.divider{
+    background-color: gray;
+    max-height: 100vh;
+    height:100%;
+}
+body{
+    background: green;
+    height: 100%;
+    width:100%;
+}
