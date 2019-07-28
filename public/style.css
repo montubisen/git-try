@@ -4,3 +4,12 @@
     max-height:200px;
     height:100%;
 }
+.write{
+    background:gray;
+    margin: 40px;
+    width:70vw;
+    height:70vh;
+}
+.write h1{
+    font-size: 50px;
+}
