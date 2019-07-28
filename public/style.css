@@ -1,5 +1,6 @@
-body{
-    background:green;
+.divider{
+    background-color:gray;
+    width:2px;
+    max-height:200px;
     height:100%;
-    width:100%;
 }
