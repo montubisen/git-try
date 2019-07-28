@@ -17,7 +17,7 @@ const info=[{},{
     branch:'IT'
 }]
 
-const PORT=PROCESS.env.PORT ||3000
+const PORT=process.env.PORT ||3000
 
 app.set('view engine','hbs')
 
